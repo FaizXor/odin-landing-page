@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.Header{
+    background-color: #7a6108;
+    display: flex;
+    justify-content: center;
+}

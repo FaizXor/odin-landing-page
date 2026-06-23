@@ -221,6 +221,7 @@ a {
 
 .calltoactiontext p{
     font-size: 15px;
+    margin: 0;
 }
 
 .calltoactionbutton button{
@@ -232,4 +233,13 @@ a {
     border: 5px solid #ffe380; 
     font-size: 15px;
     border-radius: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7a6108;
+    color: #F9FAF8;
+    padding: 20px;
 }

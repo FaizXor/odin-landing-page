@@ -1,10 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'roboto', sans-serif;
+}
+
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .Header{
     background-color: #7a6108;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
 }
+
+.fastlogo{
+    display: flex;
+    padding-top: 10px;
+    gap: 20px;
+    align-items: center;
+    font-size: 24px;
+    color: #ffe380;
+    font-weight: bold;
+}
+
+.festlinks{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-top: 10px;
+}
+

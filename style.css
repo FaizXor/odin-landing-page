@@ -19,7 +19,7 @@ a {
 .Header{
     background-color: #7a6108;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-left: 30px;
     padding-right: 30px;
@@ -34,6 +34,7 @@ a {
     font-size: 24px;
     color: #ffe380;
     font-weight: bold;
+    width: 700px;
 }
 
 .festlinks{
@@ -51,4 +52,31 @@ a {
     border: 0;
     font-size: 15px;
     border-radius: 5px;
+}
+
+.Content{
+    display: flex;
+    flex-direction: column;
+}
+
+.firstcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    background-color: #7a6108;
+}
+
+.imgcontainer img{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.infocontainer{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
 }

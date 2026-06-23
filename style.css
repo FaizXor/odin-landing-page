@@ -120,3 +120,40 @@ a {
     font-size: 15px;
     border-radius: 5px;
 }
+
+.secondcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffe380;
+}
+
+.header2 h2{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.list1{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.food1 img,.food2 img,.food3 img,.food4 img{
+    width:200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 5px solid #F9FAF8;
+}
+
+.food1 h3 ,.food2 h3,.food3 h3,.food4 h3{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.food1 p ,.food2 p,.food3 p,.food4 p{
+    text-align: center;
+    margin-top: 5px;
+}

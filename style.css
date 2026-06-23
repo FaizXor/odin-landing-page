@@ -11,6 +11,11 @@ body{
     padding: 0;
 }
 
+a {
+  color: inherit;
+  text-decoration: inherit; 
+}
+
 .Header{
     background-color: #7a6108;
     display: flex;
@@ -36,5 +41,14 @@ body{
     gap: 30px;
     align-items: center;
     padding-top: 10px;
+    color: #F9FAF8;
+    font-weight: light;
 }
 
+.headersigninbutton{
+    background-color: #f1bf0b;
+    padding: 10px;
+    border: 0;
+    font-size: 15px;
+    border-radius: 5px;
+}

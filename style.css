@@ -415,10 +415,6 @@ img {
         text-align: center;
         gap: var(--spacing-md);
     }
-
-    .calltoactiontext {
-        flex-basis: auto;
-    }
 }
 
 /* ===== Responsive: Mobile (max-width: 480px) ===== */
